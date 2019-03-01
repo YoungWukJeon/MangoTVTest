@@ -25,7 +25,7 @@ public class UserRepositoryTest {
         Date now = new Date();
 
         UserEntity userEntity = new UserEntity();
-        userEntity.setId("testStreamer");
+        userEntity.setId("testStreamer1");
         userEntity.setPassword("testPass");
         userEntity.setNickname("streamer1");
         userEntity.setStatus("NORMAL");

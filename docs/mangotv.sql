@@ -1,7 +1,5 @@
 use mangotv;
 
-use mangotv;
-
 create table `user`(
 	`srl` int unsigned auto_increment,
     `id` varchar(30) not null,
@@ -31,6 +29,6 @@ create table `subscribe`(
     key `idx_status_01`(`status`, `update_date`)
 );
 
-INSERT INTO `` (`srl`,`id`,`password`,`nickname`,`email`,`status`,`icon_url`,`create_date`,`update_date`,`login_date`) VALUES (18,'testUser','testPass','nickname',NULL,'NORMAL',NULL,'2019-03-01 07:19:31','2019-03-01 07:19:31','2019-03-01 07:19:31');
-INSERT INTO `` (`srl`,`id`,`password`,`nickname`,`email`,`status`,`icon_url`,`create_date`,`update_date`,`login_date`) VALUES (19,'testStreamer','testPass','streamer1',NULL,'NORMAL',NULL,'2019-03-01 07:20:23','2019-03-01 07:20:23','2019-03-01 07:20:23');
-INSERT INTO `` (`user_srl`,`streamer_srl`,`status`,`create_date`,`update_date`) VALUES (18,19,'NORMARL','2019-03-01 07:20:59','2019-03-01 07:20:59');
+INSERT INTO `user` (`srl`,`id`,`password`,`nickname`,`email`,`status`,`icon_url`,`create_date`,`update_date`,`login_date`) VALUES (18,'testUser','testPass','nickname',NULL,'NORMAL',NULL,'2019-03-01 07:19:31','2019-03-01 07:19:31','2019-03-01 07:19:31');
+INSERT INTO `user` (`srl`,`id`,`password`,`nickname`,`email`,`status`,`icon_url`,`create_date`,`update_date`,`login_date`) VALUES (19,'testStreamer','testPass','streamer1',NULL,'NORMAL',NULL,'2019-03-01 07:20:23','2019-03-01 07:20:23','2019-03-01 07:20:23');
+INSERT INTO `subscribe` (`user_srl`,`streamer_srl`,`status`,`create_date`,`update_date`) VALUES (18,19,'NORMARL','2019-03-01 07:20:59','2019-03-01 07:20:59');
