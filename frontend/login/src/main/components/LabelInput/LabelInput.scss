@@ -1,0 +1,35 @@
+.label-input {
+  display: block;
+  position: relative;
+  height: 60px;
+  overflow: hidden;
+
+  label {
+    position: absolute;
+    top: 18px;
+    left: 14px;
+    width: 325px;
+    color: #999;
+    font-size: 14px;
+    padding: 0;
+    line-height: 120%;
+  }
+
+  input {
+    width: 340px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 0 0 0 13px;
+    color: #111;
+    background-color: #fff;
+
+    &:focus {
+      // border: 1px solid #2e6afd;
+      border: 1.5px solid #e77400c5;
+      outline: none;
+    }
+  }
+}
