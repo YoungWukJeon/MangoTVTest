@@ -1,0 +1,36 @@
+
+.main-search {
+    display: inline-block;
+    width: 240px;
+    padding: 0 5px;
+    margin: 5px 20px;
+    border: #e77200 1.5px solid;
+    border-radius: 5px;
+
+    .search-area {
+        border: none;
+        vertical-align: middle;
+        display: inline-block;
+        width: 200px;
+        margin: 0 5px;
+        // font-size: 12pt;
+    }
+
+    .search-area:focus {
+        outline: none;
+    }
+
+    .search-icon {
+        vertical-align: middle;
+        display: inline-block;
+
+        button {
+            width: 30px;
+            height: 30px;
+            border: none;
+            cursor: pointer;
+            background: url('./search-icon.svg');
+            background-size: contain;
+        }
+    }
+}

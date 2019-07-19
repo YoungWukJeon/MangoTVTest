@@ -1,0 +1,21 @@
+.main-logo {
+    padding: 10px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    vertical-align: middle;
+
+    .main-link {
+        text-decoration: none;
+
+        .app-name {
+            font-size: 26px;
+            color: #e77200;
+        }
+
+        .app-title {
+            font-size: 18px;
+            color: #526e2a;
+            vertical-align: top;
+        }
+    }
+}
